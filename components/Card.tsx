@@ -10,7 +10,7 @@ const Card: FC<CardProps> = ({ page }) => {
       <span className="flex justify-center ">
         <div className="max-w-sm rounded overflow-hidden shadow-lg w-full my-4 md:my-0 content-between grid">
           {/* image */}
-          <div className="w-[400px] h-[205px] relative">
+          <div className="w-full md:w-[310px] h-[205px] relative">
             <Image
               src={getCover(page.cover)}
               alt=""
