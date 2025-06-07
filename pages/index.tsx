@@ -19,8 +19,10 @@ export const getStaticProps: GetStaticProps = async () => {
 const Home: NextPage<IndexProps> = ({ pages }) => {
   
   return <Layout>
-    <div className="pt-12">
-      <h1 className="text-5xl mb-8">{siteConfig.title}</h1>
+    <div className="w-full md:w-auto pt-12">
+      <h1 className="text-[2.625rem] md:text-5xl text-center md:text-left mb-8">
+        {siteConfig.title}
+      </h1>
       <div className="grid gap-4 md:gap-6 mt-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full my-12">
         {/* Card */}
         {pages.map((page, index) => (
