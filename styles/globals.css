@@ -3,8 +3,9 @@
 @tailwind utilities;
  
 h1 {
-  @apply font-semibold leading-tight text-4xl mt-0 mb-2;
+  @apply font-semibold leading-tight text-2xl sm:text-3xl md:text-4xl mt-0 mb-2;
 }
+
 h2 {
   @apply font-semibold leading-tight text-3xl mt-0 mb-2;
 }
