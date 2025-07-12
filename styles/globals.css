@@ -5,7 +5,6 @@
 h1 {
   @apply font-semibold leading-tight text-2xl sm:text-3xl md:text-4xl mt-0 mb-2;
 }
-
 h2 {
   @apply font-semibold leading-tight text-3xl mt-0 mb-2;
 }
@@ -18,7 +17,6 @@ p {
 main {
   @apply min-h-screen flex flex-col justify-center items-center;
 }
- 
 .nbr-inline-code {
   @apply text-pink-500 text-sm px-2 py-1 font-normal bg-gray-100 rounded break-words;
 }
